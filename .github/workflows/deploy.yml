@@ -18,6 +18,53 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install zensical
+      - name: Convert Obsidian wikilinks to Markdown links
+        run: |
+          python3 - <<'PY'
+          import os, pathlib, re, urllib.parse
+
+          root = pathlib.Path(".")
+          # Map lowercase note stem -> relative posix path from repo root
+          page_map = {}
+          for p in root.rglob("*.md"):
+              if ".github" not in p.parts:
+                  page_map[p.stem.lower()] = p.as_posix()
+
+          def slugify(h):
+              s = re.sub(r'[^\w\s-]', '', h.strip().lower())
+              return re.sub(r'[-\s]+', '-', s).strip('-')
+
+          for md in root.rglob("*.md"):
+              if ".github" in md.parts:
+                  continue
+              text = md.read_text(encoding="utf-8")
+
+              def replace_link(m):
+                  inner = m.group(1)
+                  target, alias = inner.split('|', 1) if '|' in inner else (inner, None)
+                  page, header = target.split('#', 1) if '#' in target else (target, None)
+
+                  page = page.strip()
+                  header = header.strip() if header else None
+                  label = alias.strip() if alias else (header if not page else (f"{page} > {header}" if header else page))
+                  anchor = f"#{slugify(header)}" if header else ""
+
+                  if not page:
+                      return f"[{label}]({anchor})"
+
+                  # Find actual file path (handles case differences & subfolders)
+                  lookup = pathlib.Path(page).stem.lower()
+                  target_posix = page_map.get(lookup, f"{page}.md")
+                  rel_path = os.path.relpath(target_posix, start=md.parent.as_posix())
+                  rel_posix = pathlib.Path(rel_path).as_posix()
+                  encoded = urllib.parse.quote(rel_posix, safe="/")
+                  return f"[{label}]({encoded}{anchor})"
+
+              converted = re.sub(r'(?<!!)\[\[(.+?)\]\]', replace_link, text)
+              if converted != text:
+                  print(f"Converted links in {md}")
+                  md.write_text(converted, encoding="utf-8")
+          PY
       - run: zensical build
       - uses: actions/upload-pages-artifact@v3
         with:

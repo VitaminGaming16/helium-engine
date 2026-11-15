@@ -4,4 +4,4 @@ Both coldbar and hotbar spaces arent calculated by any formula but obtained by e
 
 Its worth mentioning on inventory page that player's hands are two separate item-holders that can hold items with limit of 5\*STR slots (5-25 without any additional buffs) each.
 
-![[Inventory.excalidraw]]
+![Inventory](Drawings/Inventory.excalidraw.svg)

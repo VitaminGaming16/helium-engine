@@ -1,3 +1,13 @@
 [project]
 site_name = "Helium Engine"
 docs_dir = "."
+site_url = "https://vitamingaming16.github.io/helium-engine/"
+plugins = ["search", "roamlinks"]
+
+nav = [
+  { "Home" = "index.md" },
+  { "Character Sheet" = "Character sheet.md" },
+  { "Inventory" = "Inventory.md" },
+  { "Tags" = "Tags.md" },
+  { "License" = "LICENSE.md" },
+]
