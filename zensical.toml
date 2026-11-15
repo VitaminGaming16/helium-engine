@@ -1,0 +1,3 @@
+[project]
+site_name = "Helium Engine"
+docs_dir = "."
