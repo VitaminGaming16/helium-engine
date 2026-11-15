@@ -1,0 +1,1 @@
+to-do: explain tags as universal property system, separate tags for items/creatures, create first version of tag library (two table of tags for items and creatures)

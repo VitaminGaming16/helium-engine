@@ -1,5 +1,5 @@
-# What Helium Engine Is
-**Helium engine** is my custom TTRPG system-framework. Framework means that its just foundation, you cant play engine itself but rather build your own system on top of it. It serves as DnD alternative for more opportunities for dynamic fights, better social interactions and most importantly less wiki searching, meaning that its intuitive. Note that while Helium Engine aims to grant all these pros to systems built on top of it, it still depends on exact system implementation and players.
+# Helium Engine
+**Helium engine** is light-weigth TTRPG system engine. Word "engine" means that its just foundation, you cant play engine itself but rather build your own system on top of it. It serves as DnD alternative for more opportunities for dynamic fights, better social interactions and most importantly less homebrew (changing already existing mechanics) but actual system building. Note that while Helium Engine aims to grant all these pros to systems built on top of it, it still depends on exact system implementation, DM and players.
 
 # FAQ
 ### Why this system engine exists?
@@ -10,6 +10,7 @@ Im specifically building this engine for virtual TTRPG like Foundry VTT, Owlbear
 This engine is built for being lightweight while supporting heavy additions and changes. Change engine into something absolutely different or keep it simple, its up to you.
 
 # Pages
-[[Character sheet]]
-[[Inventory]]
-[[Tags]]
+
+- [[Character sheet]] 
+- [[Inventory]]
+- [[Tags]]
