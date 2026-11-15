@@ -1,5 +1,5 @@
 # Helium Engine
-**Helium engine** is light-weigth TTRPG system engine. Word "engine" means that its just foundation, you cant play engine itself but rather build your own system on top of it. It serves as DnD alternative for more opportunities for dynamic fights, better social interactions and most importantly less homebrew (changing already existing mechanics) but actual system building. Note that while Helium Engine aims to grant all these pros to systems built on top of it, it still depends on exact system implementation, DM and players.
+Helium engine is lightweigth TTRPG system engine. Word "engine" means that its just foundation, you cant play engine itself but rather build your own system on top of it. It serves as DnD alternative for more opportunities for dynamic fights, better social interactions and most importantly less homebrew (changing already existing mechanics) but actual system building. Note that while Helium Engine aims to grant all these pros for systems built on top of it, it still depends on exact system implementation, DM and players.
 
 # FAQ
 ### Why this system engine exists?
