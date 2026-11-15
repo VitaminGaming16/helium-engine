@@ -1,4 +1,4 @@
-
+# What Helium Engine Is
 **Helium engine** is my custom TTRPG system-framework. Framework means that its just foundation, you cant play engine itself but rather build your own system on top of it. It serves as DnD alternative for more opportunities for dynamic fights, better social interactions and most importantly less wiki searching, meaning that its intuitive. Note that while Helium Engine aims to grant all these pros to systems built on top of it, it still depends on exact system implementation and players.
 
 # FAQ
