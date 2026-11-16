@@ -26,5 +26,8 @@ If you want to contribute with:
 - Core design changes or new mechanics - open a GitHub Issue or reach out on discord `vitamingaming` to discuss it. Once consensus made, make PR to implement
 All accepted contributors will be included in credits in releases of playbook
 
+>[!important] Important note for contributors about wikilinks
+>This project is built using Obsidian, therefore originally its using wikilinks `[[link]]`. Since Zensical does **not** natively support wikilinks, on deployment stage there's converter script that converts wikilinks into basic external links `[text](link)` for Zensical to work with. For contributors, this means that they **may** use wikilinks for mentioning different pages, but importantly, they can **not** use wikilinks embedding `![[link]]` and must use basic link embedding `![text](link)`.
+
 # License
 This TTRPG engine is licensed under Creative Commons CC-BY 4.0.
