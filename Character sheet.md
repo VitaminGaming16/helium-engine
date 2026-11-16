@@ -16,7 +16,7 @@ Player character sheet is full version of Character Sheet and includes all param
 ## Statblock
 Statblock is separated into 4 categories called Attributes and those Attributes branch off into 12 Skills. Each Attribute scales from 1 to 12 and each Skill scales from 1 to 6. Attributes values are distributed at the character building step by player themselves using pool of points while Skills are defined by `Attribute value/3` (rounded down) and can be increased by bonuses from race/class/behaviour/hobby/external tags (weapons, effects)
 
-
+### Attributes and their skills
 
 | Body      |  Strength  |       Durability        |    Health    |
 | --------- | :--------: | :---------------------: | :----------: |
