@@ -11,12 +11,13 @@ Right now its in very early development. Current to-do list:
 - [x] Character sheets
 - [x] Github Pages & Zensical
 - [ ] Tags library
-- [ ] Initiative
 - [ ] Combat system
+- [ ] Damage types
+- [ ] Initiative
 - [ ] Social interactions
 - [ ] Off-camera activities (time skips, etc)
 - [ ] Life resources (hp, sleep, food)
-- [ ] First pdf playbook release
+- [ ] First release of documentation
 
 # How to contribute
 Since its creativity child of VitaminGaming16, its not possible to let anything be changed by anyone. Right now, Helium Engine is solo-led design project with a specific vision how mechanics fit or should fit together. Because of that, any undiscussed core-related changes are dismissed.
@@ -24,10 +25,12 @@ Since its creativity child of VitaminGaming16, its not possible to let anything 
 If you want to contribute with:
 - Typos, readability and formatting fixes - feel free to open a pull request directly
 - Core design changes or new mechanics - open a GitHub Issue or reach out on discord `vitamingaming` to discuss it. Once consensus made, make PR to implement
-All accepted contributors will be included in credits in releases of playbook
 
->[!important] Important note for contributors about wikilinks
+All accepted contributors will be included in credits in releases of documentation
+
+>Important note for contributors about wikilinks
+>
 >This project is built using Obsidian, therefore originally its using wikilinks `[[link]]`. Since Zensical does **not** natively support wikilinks, on deployment stage there's converter script that converts wikilinks into basic external links `[text](link)` for Zensical to work with. For contributors, this means that they **may** use wikilinks for mentioning different pages, but importantly, they can **not** use wikilinks embedding `![[link]]` and must use basic link embedding `![text](link)`.
 
 # License
-This TTRPG engine is licensed under Creative Commons CC-BY 4.0.
+Helium engine is licensed under Creative Commons CC-BY 4.0.

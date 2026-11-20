@@ -14,7 +14,7 @@ Player character sheet is full version of Character Sheet and includes all param
 - Appearance (includes description of perceived: age, height, body type, eyes color, skin color/scars, hair color/style)
 - Biography
 ## Statblock
-Statblock is separated into 4 categories called Attributes and those Attributes branch off into 12 Skills. Each Attribute scales from 1 to 12 and each Skill scales from 1 to 6. Attributes values are distributed at the character building step by player themselves using pool of points while Skills are defined by `Attribute value/3` (rounded down) and can be increased by bonuses from race/class/behaviour/hobby/external tags (weapons, effects)
+Statblock is separated into 4 categories called Attributes and those Attributes branch off into 12 Skills. Each Attribute scales from 1 to 12 and each Skill scales from 1 to 6. Attributes values are distributed at the character building step by player themselves using pool of points while Skills are defined by `Attribute/3` (rounded down) and can be increased by bonuses from race/class/behaviour/hobby/external tags (weapons, effects)
 
 ### Attributes and their skills
 
@@ -55,7 +55,7 @@ Simplified NPC Sheet is minimalistic light sheet for master to put on any NPC. T
 
 
 ## Statblock
-Since they lack hobby and behaviour, they also dont have skills! If you need to roll for skill check, then bonus from skill is gonna be ATTRIBUTE/3
+Since they lack hobby and behaviour, they also dont have skills! If you need to roll for skill check, then bonus from skill is gonna be `ATTRIBUTE/3`
 
 ## Picture of Simplified NPC Sheet
 
