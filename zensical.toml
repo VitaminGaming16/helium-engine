@@ -9,5 +9,6 @@ nav = [
   { "Character Sheet" = "Character sheet.md" },
   { "Inventory" = "Inventory.md" },
   { "Tags" = "Tags.md" },
-  { "License" = "LICENSE.txt" },
+  { "Combat system" = "Combat system.md"},
+  { "License" = "LICENSE.txt" }
 ]
