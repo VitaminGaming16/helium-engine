@@ -18,11 +18,12 @@ Statblock is separated into 4 categories called Attributes and those Attributes 
 
 ### Attributes and their skills
 
-| Body      |  Strength  |       Durability        |    Health    |
-| --------- | :--------: | :---------------------: | :----------: |
-| Mind      | Temperance |         Memory          | Intelligence |
-| Speed     |  Agility   | Hands-Eyes Coordination |  Dexterity   |
-| Affection | Persuasion |       Perception        |     Look     |
+| **Attribute**      | **Skill 1** |       **Skill 2**       | **Skill 3**  |
+| ------------------ | :---------: | :---------------------: | :----------: |
+| **[[#Body]]**      |  Strength   |       Durability        |    Health    |
+| **[[#Mind]]**      | Temperance  |         Memory          | Intelligence |
+| **[[#Speed]]**     |   Agility   | Hands-Eyes Coordination |  Dexterity   |
+| **[[#Affection]]** | Persuasion  |       Perception        |     Look     |
 
 ### Skills
 #### Body
@@ -43,7 +44,7 @@ Statblock is separated into 4 categories called Attributes and those Attributes 
 - Look - overall perceived by others appearance of character including visual, smell, speech, behaviour
 
 ## Picture of Player Character Sheet
-![Player Character Sheet](<Drawings/Player Character Sheet.excalidraw.svg>)
+![Player Character Sheet|374](<Drawings/Player Character Sheet.excalidraw.svg>)
 
 # Simplified NPC Sheet
 Simplified NPC Sheet is minimalistic light sheet for master to put on any NPC. The reason this exists is because its not practical to put [[#Player Character Sheet]] on every NPC including random monsters, citizens, peasants, etc. It still contains Verbose parameters and Statblock, but they have far less parameters overall. Its not mandatory to use SNPCS for all NPCs but rather those who shouldnt be worked on too much, so bosses may still have full [[#Player Character Sheet]]. Also note that if you need to include parameter that's not mentioned in SNPCS, you may add it from full PCS, its just minimal amount of parameters, not strict set of them.
@@ -59,4 +60,4 @@ Since they lack hobby and behaviour, they also dont have skills! If you need to 
 
 ## Picture of Simplified NPC Sheet
 
-![Simplified NPC Sheet](<Drawings/Simplified NPC Sheet.excalidraw.svg>)
+![Simplified NPC Sheet|361](<Drawings/Simplified NPC Sheet.excalidraw.svg>)
