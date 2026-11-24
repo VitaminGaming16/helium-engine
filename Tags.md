@@ -7,13 +7,13 @@ Tags are stored in tags library below. Its minimal set of tags that can be usefu
 # Tags library
 ## Item tags
 
-| Tag   | Description |
-| ----- | ----------- |
-| Sharp |             |
-|       |             |
-|       |             |
-|       |             |
-|       |             |
+| Tag | Description |
+| --- | ----------- |
+|     |             |
+|     |             |
+|     |             |
+|     |             |
+|     |             |
 
 ## Entity tags
 

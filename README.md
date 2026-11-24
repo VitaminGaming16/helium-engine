@@ -14,8 +14,8 @@ Right now Helium engine is in early development. Current to-do list:
 - [x] Github Pages & Zensical
 - [ ] Tags library
 - [ ] Combat system
-- [ ] Initiative
-- [ ] Damage types
+- [x] Initiative
+- [x] Damage types
 - [ ] Social interactions
 - [ ] Off-camera activities (time skips, etc)
 - [ ] Life resources (hp, sleep, food)

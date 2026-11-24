@@ -4,6 +4,10 @@ docs_dir = "."
 site_url = "https://vitamingaming16.github.io/helium-engine/"
 plugins = ["search", "roamlinks"]
 
+exclude_docs = """
+*.excalidraw.md
+"""
+
 nav = [
   { "Home" = "index.md" },
   { "Character Sheet" = "Character sheet.md" },
@@ -12,3 +16,20 @@ nav = [
   { "Combat system" = "Combat system.md"},
   { "License" = "LICENSE.txt" }
 ]
+
+[project.theme]
+features = [
+  "search.highlight",
+]
+
+[[project.theme.palette]]
+media = "(prefers-color-scheme: light)"
+scheme = "default"
+toggle.icon = "lucide/sun"
+toggle.name = "Switch to dark mode"
+
+[[project.theme.palette]]
+media = "(prefers-color-scheme: dark)"
+scheme = "slate"
+toggle.icon = "lucide/moon"
+toggle.name = "Switch to light mode"

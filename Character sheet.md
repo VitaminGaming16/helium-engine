@@ -1,4 +1,4 @@
-Character sheet is list of properties each player/NPC has. There are different sheets including [[#Player Character Sheet]] (PCS) and [[#Simplified NPC Sheet]]. DM can use PCS for NPCs, its just not as convenient as SNPCS for sheer amount of different NPCs across campaign.
+Character sheet is list of properties each entity has. There are different sheets including [[#Player Character Sheet]] (PCS) and [[#Simplified NPC Sheet]]. DM can use PCS for NPCs, its just not as convenient as SNPCS for sheer amount of different NPCs across campaign.
 
 
 # Player Character Sheet
@@ -43,7 +43,7 @@ Statblock is separated into 4 categories called Attributes and those Attributes 
 - Perception - perception of nonverbal and verbal communication cues from other people
 - Look - overall perceived by others appearance of character including visual, smell, speech, behaviour
 
-## Picture of Player Character Sheet
+## Player Character Sheet image
 ![Player Character Sheet|374](<Drawings/Player Character Sheet.excalidraw.svg>)
 
 # Simplified NPC Sheet
@@ -58,6 +58,6 @@ Simplified NPC Sheet is minimalistic light sheet for master to put on any NPC. T
 ## Statblock
 Since they lack hobby and behaviour, they also dont have skills! If you need to roll for skill check, then bonus from skill is gonna be `ATTRIBUTE/3`
 
-## Picture of Simplified NPC Sheet
+## Simplified NPC Sheet image
 
 ![Simplified NPC Sheet|361](<Drawings/Simplified NPC Sheet.excalidraw.svg>)
