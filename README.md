@@ -18,14 +18,13 @@ Right now Helium engine is in early development. Current to-do list:
 	- [x] Damage types
 	- [ ] Proficiencies solution?
 - [ ] Glossary
-- [ ] 
 - [ ] Social interactions
 - [ ] Off-camera activities (time skips, etc)
 - [ ] Life resources (hp, sleep, food)
 - [ ] First release of documentation
 
 # How to contribute
-Since its creativity project of VitaminGaming16, its not possible to let anything be changed by anyone. Right now, Helium Engine is solo-led design project with a specific vision how mechanics fit or should fit together. Because of that, any undiscussed core-related changes are dismissed.
+Since its creativity project of VitaminGaming16, its not possible to let anything be changed by anyone. Right now, Helium Engine is solo-led design project with a specific vision how mechanics fit or should fit together. Because of that, any *undiscussed* core-related changes are dismissed.
 
 If you want to contribute with:
 - Typos, readability and formatting fixes - feel free to open a pull request directly
@@ -36,4 +35,4 @@ All accepted contributors will be included in credits in releases of documentati
 [Read more about contributing](CONTRIBUTING.md)
 
 # License
-Helium engine is licensed under CC-BY 4.0.
+Helium engine is licensed under Creative Commons Attribution 4.0 (CC-BY 4.0).

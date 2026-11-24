@@ -2,7 +2,7 @@ Character sheet is a list of properties each entity has. There are different she
 
 
 # Player Character Sheet
-Player character sheet is full version of Character Sheet and includes all parameters that could benefit roleplaying and character building. There are two categories of parameters: First one is verbose parameters: name, appearance, etc; Second one is statblock, these are just skills of character.
+Player character sheet is full version of Character Sheet and includes all parameters that could benefit roleplaying and character building. There are two categories of parameters: verbose parameters (name, appearance, etc) and statblock, (skills of the character).
 
 ## Verbose parameters
 - Name
