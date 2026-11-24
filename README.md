@@ -5,7 +5,7 @@ Latest version is hosted on [GitHub Pages](https://vitamingaming16.github.io/hel
 ![Helium engine philosophy](<Drawings/Helium engine philosophy.excalidraw.svg>)
 
 # What is this repository for
-Repository was made for easier collaboration, version tracking and overall convenience, as well as github pages hosting. Online wiki is built on Zensical that converts md files into websites and hosted by GitHub Pages for free.
+The repository was made for easier collaboration, version tracking and overall convenience, as well as github pages hosting. Online wiki is built on Zensical that converts md files into websites and hosted by GitHub Pages for free.
 
 # Current state
 Right now Helium engine is in early development. Current to-do list:
@@ -14,25 +14,26 @@ Right now Helium engine is in early development. Current to-do list:
 - [x] Github Pages & Zensical
 - [ ] Tags library
 - [ ] Combat system
-- [x] Initiative
-- [x] Damage types
+	- [x] Initiative
+	- [x] Damage types
+	- [ ] Proficiencies solution?
+- [ ] Glossary
+- [ ] 
 - [ ] Social interactions
 - [ ] Off-camera activities (time skips, etc)
 - [ ] Life resources (hp, sleep, food)
 - [ ] First release of documentation
 
 # How to contribute
-Since its creativity child of VitaminGaming16, its not possible to let anything be changed by anyone. Right now, Helium Engine is solo-led design project with a specific vision how mechanics fit or should fit together. Because of that, any undiscussed core-related changes are dismissed.
+Since its creativity project of VitaminGaming16, its not possible to let anything be changed by anyone. Right now, Helium Engine is solo-led design project with a specific vision how mechanics fit or should fit together. Because of that, any undiscussed core-related changes are dismissed.
 
 If you want to contribute with:
 - Typos, readability and formatting fixes - feel free to open a pull request directly
-- Core design changes or new mechanics - open a GitHub Issue or reach out on discord `vitamingaming` to discuss it. Once consensus made, make PR to implement
+- Core design changes or new mechanics - open a GitHub Issue or reach out on discord `vitamingaming` to discuss it. Once consensus is reached, make PR to implement
 
 All accepted contributors will be included in credits in releases of documentation
 
->Important note for contributors about wikilinks
->
->This project is built using Obsidian, therefore originally its using wikilinks `[[link]]`. Since Zensical does **not** natively support wikilinks, on deployment stage there's converter script that converts wikilinks into basic external links `[text](link)` for Zensical to work with. For contributors, this means that they **may** use wikilinks for mentioning different pages, but importantly, they can **not** use wikilinks embedding `![[link]]` and must use basic link embedding `![text](link)`.
+[Read more about contributing](CONTRIBUTING.md)
 
 # License
-Helium engine is licensed under Creative Commons CC-BY 4.0.
+Helium engine is licensed under CC-BY 4.0.

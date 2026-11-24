@@ -2,7 +2,7 @@
 
 Tags are properties of items/entities. They can act as active effects, permanent curses, temporary qualities, anything. They're very versatile but have to be managed by DM and be integrated in VTT to be automatically applied to values or actions.
 
-Tags are stored in tags library below. Its minimal set of tags that can be useful to any setting and any system. Modules built on Helium engine can add their own tags to fulfil their needs.
+Tags are stored in the tags library below. Its minimal set of tags that can be useful to any setting and any system. Modules built on Helium engine can add their own tags to fulfil their needs.
 
 # Tags library
 ## Item tags
